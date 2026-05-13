@@ -1,0 +1,146 @@
+{
+  "adbPath": "",
+  "serverJarPath": "",
+  "maxSize": 480,
+  "maxFps": 30,
+  "videoBitRate": 1000000,
+  "panelSize": 170,
+  "touchDelayMs": 0,
+  "enableAudio": false,
+  "adaptiveLatency": false,
+  "showLatencyOverlay": false,
+  "gridColumns": 7,
+  "theme": "Dark",
+  "showHistoryDevices": false,
+  "showMultiGroupList": false,
+  "sortGroupsByName": false,
+  "autoStartMirroring": true,
+  "multiSeparateWindow": false,
+  "showSidePanel": false,
+  "adbServerAddress": "",
+  "useRemoteAdbServer": false,
+  "wifiScanSegments": [],
+  "adbShortcuts": [],
+  "device_type": "OPPO",
+  "timing_config": {
+    "typing_delay": 1000,
+    "post_delay": 3000,
+    "tap_delay": 10000,
+    "swipe_delay": 6000,
+    "app_launch_delay": 3000,
+    "app_stop_delay": 1000,
+    "share_cooldown": 10000,
+    "cycle_complete_delay": 3000,
+    "second_visit_delay": 6000,
+    "post_share_delay": 6000
+  },
+  "post_button_coords": {
+    "OPPO": {
+      "x": 638,
+      "y": 83
+    },
+    "VIVO": {
+      "x": 540,
+      "y": 83
+    }
+  },
+  "tap_coords_oppo": [
+    {
+      "name": "Menu",
+      "action": "TAP",
+      "x": 658,
+      "y": 85,
+      "x2": 0
+    },
+    {
+      "name": "Swipe Up 1",
+      "action": "SWIPE UP",
+      "x": 360,
+      "y": 1200,
+      "x2": 200
+    },
+    {
+      "name": "Swipe Up 2",
+      "action": "SWIPE UP",
+      "x": 360,
+      "y": 1200,
+      "x2": 200
+    },
+    {
+      "name": "Swipe Up 3",
+      "action": "SWIPE UP",
+      "x": 360,
+      "y": 1200,
+      "x2": 200
+    },
+    {
+      "name": "Log Out",
+      "action": "TAP",
+      "x": 172,
+      "y": 1231,
+      "x2": 0
+    },
+    {
+      "name": "Confirm Log Out",
+      "action": "TAP",
+      "x": 221,
+      "y": 720,
+      "x2": 0
+    }
+  ],
+  "tap_coords_vivo": [
+    {
+      "name": "Menu",
+      "action": "TAP",
+      "x": 658,
+      "y": 85,
+      "x2": 0
+    },
+    {
+      "name": "Swipe Up 1",
+      "action": "SWIPE UP",
+      "x": 360,
+      "y": 1200,
+      "x2": 200
+    },
+    {
+      "name": "Swipe Up 2",
+      "action": "SWIPE UP",
+      "x": 360,
+      "y": 1200,
+      "x2": 200
+    },
+    {
+      "name": "Swipe Up 3",
+      "action": "SWIPE UP",
+      "x": 360,
+      "y": 1200,
+      "x2": 200
+    },
+    {
+      "name": "Log Out",
+      "action": "TAP",
+      "x": 368,
+      "y": 1382,
+      "x2": 0
+    },
+    {
+      "name": "Confirm Log Out",
+      "action": "TAP",
+      "x": 221,
+      "y": 820,
+      "x2": 0
+    }
+  ],
+  "swipe_config": {
+    "start_x": 360,
+    "start_y": 800,
+    "end_x": 360,
+    "end_y": 200,
+    "duration": 500,
+    "loops": 5,
+    "loop_delay": 3,
+    "tap_before_delay": 1000,
+    "tap_after_delay": 1000
+  }
+}

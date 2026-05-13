@@ -1,0 +1,121 @@
+{
+  "version": "V18",
+  "sections": [
+    {
+      "icon": "⚡",
+      "title": "V18 Updates — New Action Buttons & Configurable Delays",
+      "color": "#ff6b6b",
+      "features": [
+        "Share Intent Only Button — sends share intent to FB Lite without tapping POST, giving full control over when to post",
+        "Switch to Next Account Button — instantly switches to the next account in the list without restarting the full cycle, per-device index tracking built in",
+        "Go to Home Screen Button — closes FB Lite cleanly by sending KEYCODE_HOME instead of force-stop, preserving app state",
+        "Launch FB Lite (URL) Button — launches FB Lite using the specific URL intent (am start with VIEW action and https://fb.me) for reliable app opening",
+        "Topbar Close FB Lite now sends home screen (KEYCODE_HOME) instead of force-stop — faster and safer",
+        "Topbar Launch FB Lite now uses the URL-based intent for consistent launch behavior",
+        "Swipe Overhaul — swipe delay reduced from 6s to 1s, swipe now covers full screen (y: 950 → 100) in just 400ms, retries reduced from 3 to 2 for faster account switching",
+        "Opening FB Lite now uses the URL intent (am start ... VIEW https://fb.me) with a configurable wait time instead of force-stopping the app",
+        "Confirm Logout Delay — new 6-second configurable pause before the confirm-logout tap ensures the dialog is fully visible",
+        "Two new configurable timing values (FB Launch Wait and Confirm Logout Delay) added to the Additional Timing UI in FB Automation settings and to admin_panel.html",
+        "Admin Panel Persistence — all form fields now save to localStorage and survive page refresh; each tab has a Reset to Defaults button"
+      ]
+    },
+    {
+      "icon": "🖥️",
+      "title": "Screen Mirroring",
+      "color": "#7c3aed",
+      "features": [
+        "Multi-Device Grid — mirror unlimited Android devices simultaneously",
+        "Real-Time Video Streaming with low-latency screen capture",
+        "Adaptive Latency Profiling — auto-optimizes settings per device",
+        "Latency Overlay with live FPS counter and device information"
+      ]
+    },
+    {
+      "icon": "🖱️",
+      "title": "Input & Control",
+      "color": "#3b82f6",
+      "features": [
+        "Full touch, keyboard, and clipboard control of any device",
+        "Master Device Sync — broadcast input to all controlled devices",
+        "Floating & Separate Windows for individual device control",
+        "Hardware button support: Back, Home, Recents, Power, Rotate"
+      ]
+    },
+    {
+      "icon": "📡",
+      "title": "Device Management",
+      "color": "#06b6d4",
+      "features": [
+        "Wi-Fi Device Scanner — discover devices on your local network",
+        "Device Groups for organized multi-device management",
+        "Device History — remembers previously connected devices",
+        "Remote ADB Server support for device farms"
+      ]
+    },
+    {
+      "icon": "⚙️",
+      "title": "ADB Tools",
+      "color": "#22c55e",
+      "features": [
+        "Interactive ADB Shell Terminal per device",
+        "ADB Shortcuts — save and run commands with one click",
+        "Bulk File Transfer & APK installation across all devices"
+      ]
+    },
+    {
+      "icon": "🤖",
+      "title": "Facebook Automation",
+      "color": "#ec4899",
+      "features": [
+        "Smooth Logout Workflow — no force stop needed, clean and seamless exit",
+        "Logout process redesigned for stable and reliable session closure",
+        "Facebook Lite Share Success — accounts previously skipped now share properly",
+        "Account name skipped detection fixed — no more missed accounts in cycle",
+        "Smart Account Switching with text-based detection",
+        "Multi-Link Sharing across all devices simultaneously",
+        "Full Auto Account Cycling — the flagship automation mode",
+        "Auto Logout After Completion — automatically logs out from all devices once every account has successfully shared, no manual logout needed"
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "Tracking & History",
+      "color": "#14b8a6",
+      "features": [
+        "Real-Time Tracking Dashboard with live status updates",
+        "Persistent Share History saved to disk (JSON format)",
+        "Configurable timing settings for fine-tuned automation"
+      ]
+    },
+    {
+      "icon": "🔧",
+      "title": "Settings & Customization",
+      "color": "#f59e0b",
+      "features": [
+        "Central configuration for all app preferences",
+        "Dark / Light Theme toggle with instant switching",
+        "Server-controlled configuration for enterprise deployments",
+        "Customizable streaming quality, grid layout, and panel size"
+      ]
+    },
+    {
+      "icon": "🎨",
+      "title": "UI & UX Improvements",
+      "color": "#f97316",
+      "features": [
+        "Enhanced scrollbars across the entire application — clearer, more visible, and easier to navigate",
+        "Smoother scrolling experience with improved visual feedback on all scrollable panels"
+      ]
+    },
+    {
+      "icon": "🐍",
+      "title": "Python Companion App",
+      "color": "#3b82f6",
+      "features": [
+        "Standalone Python ADB Commander with all automation features",
+        "Dark theme UI built with CustomTkinter",
+        "Shares same config.json and share_history.json with main app"
+      ]
+    }
+  ]
+}

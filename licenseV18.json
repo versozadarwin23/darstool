@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "message": "DarsTool is currently enabled. Thank you for using DarsTool!",
+  "message_disabled": "DarsTool has been disabled by the developer. Please contact support.",
+  "version": "18.0.0",
+  "license_type": "Commercial",
+  "expiry_date": "2025-12-31",
+  "max_users": 1000,
+  "features": {
+    "fb_automation": true,
+    "multi_control": true,
+    "file_transfer": true,
+    "adb_shell": true,
+    "wireless_connection": true,
+    "premium_features": true
+  },
+  "support_contact": "support@darstool.com",
+  "last_updated": "2024-05-05T12:00:00Z"
+}
